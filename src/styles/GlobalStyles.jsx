@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import { theme } from "styles/theme";
+// import { theme } from "./theme";
 
 export const GlobalStyles = css`
   html {
@@ -10,7 +10,7 @@ export const GlobalStyles = css`
   body {
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
-    background: ${theme.colors.mainBackground};
+
     min-height: 100vh;
 
     font-style: normal;
@@ -50,7 +50,7 @@ export const GlobalStyles = css`
   img {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   code {
